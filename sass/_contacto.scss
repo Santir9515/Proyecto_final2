@@ -1,0 +1,8 @@
+@mixin sizes ($height){
+    height: $height;
+}
+
+
+.contacto2{
+    @include sizes(673px)
+}
